@@ -43,3 +43,13 @@ nav {
 .nav-links ul li:hover ::after {
   width: 100%;
 }
+
+.button-nav {
+  color: white;
+  width: 95px;
+  height: 30px;
+  border-radius: 15px;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: blue;
+}
