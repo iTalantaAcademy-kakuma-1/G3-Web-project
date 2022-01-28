@@ -1,0 +1,336 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px 50px 10px 50px
+
+ }
+ 
+ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+
+}
+
+ul> li{
+  margin-right: 50px;
+  font-size: 18px;
+  color: rgb(32, 6, 6);
+  font-family: "Work Sans", sans-serif;
+
+}
+.logo>img{
+  width: 100px;
+  height: 70px;
+}
+a{
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: inherit;
+  padding-bottom: 6px;
+  border-bottom-style: solid;
+} 
+
+button {
+  background-color:black ;
+  width: 100px;
+  height: 30px;
+  color:white;
+  border-color:green;
+  border-radius: 30px;
+}
+.strong{
+
+  color: rgba(7, 7, 122, 0.74);
+}
+.container_one{
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+  margin-left: 80px;
+  margin-right: 60px;
+}
+
+.firstcont{
+  margin-top: 50px;
+}
+.allcontainer{
+  margin-top: 300pt;
+  
+}
+
+
+.img{
+  position: relative;
+  float: right;
+  margin-right: 50px;
+  width: 500px;
+  height: 200px;
+}
+
+.img{
+  background-image: url("./background.jpg");
+  height: 350px;
+  width: 100%;
+}
+
+.img>h1{
+  text-align: center;
+  align-items: center; /* vertical */
+  font-size: 50px;
+  justify-content: center; /* horizontal*/
+  font-family: sans-serif;
+  font-weight: bolder;
+  color: aliceblue;
+}
+
+.intro{
+  
+  color: rgb(45, 48, 55);
+  
+  
+  font-size: 16px;
+  text-align: left;
+  width: 800px;
+     
+}
+
+.img2_intro > img{
+  height: 250px;
+  width: 150;
+  
+}
+
+ /* .img2_intro{
+  min-height: 300px;
+  -webkit-box-align: stretch;
+  align-items: stretch;
+  box-shadow: none;
+  box-sizing: border-box;
+  display:flex;
+  flex-direction: row;
+  -webkit-box-flex: 0;
+  height: 100%;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  max-height: none;
+  max-width: none;
+  width: 500px;
+  height: 200px;
+  z-index: auto;
+  position: relative;
+  background: url("../planning/IMG_20211009_124616.jpg") 0% 0% / cover transparent;
+  flex: 1 100%;
+  margin: 0px;
+  padding: 0px;
+  margin-right: 50px;
+} */
+ 
+
+.container_two> title{
+  font-size: 18px;
+}
+
+
+.container_two> p{
+  text-align: center;
+}
+
+strong{
+  color: blue;
+}
+
+.rl-below{
+  display: flex;
+  margin-left: 100px;
+  margin-right: 60px;
+  justify-content:  space-around;
+
+}
+.rl-above{
+  display: flex;
+  margin-left: 100px;
+  margin-right: 60px;
+  justify-content: space-around;
+}
+
+.cards {
+  display: flex;
+  column-gap: 20%;
+  flex-direction: row;
+  flex-grow: 2;
+  /* make items grow on resize */
+  align-items: stretch;
+  justify-content: center;
+  background-color: blue;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  color: aliceblue;
+  border-radius: 10px;
+}
+
+#card_para> strong{
+  color: aliceblue;
+}
+.success_stories{
+  width: 80%;
+  margin: auto;
+  padding-top: 100px;
+  text-align: center;
+  
+}
+
+.success_stories> h1{
+  color: blue;
+  font-weight: bolder;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.successstories-col{
+  flex-basis: 44%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  background: whitesmoke;
+  padding: 25px;
+  cursor: pointer;
+  text-align: center;
+  
+}
+
+.successstories-col img{
+  width: 30%;
+  border-radius: 15px;
+}
+.row{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+
+}
+h2{
+  font-size: 20px;
+}
+
+.form-check-label{
+  display: flex;
+  position: relative;
+  margin-top: 150px;
+  justify-content: space-between;
+
+}
+
+.call{
+  font-size: 18px;
+  justify-content: left;
+
+}
+
+.call > title{
+  color: blue;
+}
+
+.tables{
+  display: flex;
+  margin-left: 100px;
+  margin-right: 60px;
+  justify-content: right;
+
+}
+
+
+.footer{
+  width: 100%;
+
+text-align: center;
+padding: 30px 0;
+}
+.footer>h1{
+  color: blue;
+  font-size: 20px;
+}
+
+.input-euro {
+  position: relative;
+}
+.input-euro.left input {
+  padding-left:18px;
+}
+.input-euro.right input {
+  padding-right:18px;
+  text-align:end; 
+}
+
+.input-euro:before {
+  position: absolute;
+  top: 0;
+  content:"€"
+}
+.input-euro.left:before {
+  left: 5px;
+}
+.input-euro.right:before {
+  right: 5px;
+}
+
+ 
+form{
+  display: flex;
+  float: left;
+  
+}
+
+#footer{
+  flex-direction: row;
+} 
+
+.md{
+  background-color: blue;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=SEND]
+{
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: white;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+
+ 
